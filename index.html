@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>placeholder Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="myForm">
+            
+            <label for="username" onclick="expand(this)">USERNAME</label>
+            <input type="text" class="input-text">
+            <label for="username" onclick="expand(this)">Email Address</label>
+            <input type="email" class="input-text">
+            <label for="password" onclick="expand(this)">PASSWORD</label>   
+            <input type="password" class="input-text">
+            
+            <button class="btn">SUBMIT</button>
+        </form>
+</div>
+<script>
+    function expand (label){
+        var elemId = label.getAttribute("for");
+        document.getElementById(elemId).style.height="45px";
+
+        document.getElementById(elemId).classlist.add('my-style');
+        label.style.transform = "translateY(-45px)"; 
+    }
+</script>
+</body>
+</html>

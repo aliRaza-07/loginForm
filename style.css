@@ -1,0 +1,169 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;  
+    border: none;      
+    outline: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: -o-linear-gradient(
+        315deg,
+        #61D954,
+        #2ebf75
+    );
+    overflow-y: hidden;
+    background: linear-gradient(
+        135deg,
+        #61D954,
+        #2ebf75
+    );
+}
+
+.container{
+    background-color: #202020;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+    border-radius: 10px;
+    height: 500px;
+}
+.myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 50%; */
+    padding: 20px;
+}
+.input-text{
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #4d4d4D;
+}
+
+.btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #2ebf75;
+    margin-top: 50px;
+}
+
+/* .container{
+    height: 480px;
+    width: 320px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+form{
+    height: 400px;
+    width: 320px;
+    background-color: #202020;
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    padding: 0 30px;
+    -webkit-box-shadow: 0 20px 25px ;
+
+            box-shadow: 0 20px 25px;
+           
+}
+label{
+    position: relative;
+    display: block;
+    width: 100px;
+    -webkit-transition:0.5s ;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #e5e5e5;
+    font-size: 12px;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0 15px;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: #4d4d4D;
+    color: #ffffff;
+    pointer-events: none;
+} */
+label[for = "username"]{
+    /* bottom: 280px; */
+    color: #fff;
+}
+/* #username{
+    bottom: 170px;
+} */
+label[for ="password"]{
+    color: #fff;
+    /* bottom: 170px; */
+}
+/* #password{
+    bottom: 165px;
+} */
+/* button{
+    width: 260px;
+    position: absolute;
+    bottom: 60px;
+    padding: 15px 0;
+    background-color: #2ebf75;
+    color: #ffffff;
+    border-radius: 5px;
+} */
+
+.my-style::-webkit-input-placeholder{
+    color: #000;
+}
+.my-style::-moz-placeholder{
+    color: #000;
+}
+.my-style:-ms-input-placeholder{
+    color: #000;
+}
+.my-style::-ms-input-placeholder{
+    color: #000;
+}
+.my-style::placeholder{
+    color: #000;
+}
+/* a{
+    display: block;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: #202020;
+    color: #2ebf75;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 20px 25px;
+    box-shadow: 0 20px 250x;
+} */
